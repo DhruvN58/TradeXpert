@@ -18,3 +18,4 @@ def create_access_token(data: dict, expires_delta: timedelta):
     expire = datetime.utcnow() + expires_delta
     to_encode.update({"exp": expire})
     return jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)
+# asgdjsadfas
